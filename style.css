@@ -1,4 +1,90 @@
+h1 {
+    font: 80px sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
 #Logo{
     padding-left: 20px;
 }
-    
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: orange; */
+}
+
+#homepage{
+
+    /* display: flex;
+    flex-direction: column;
+    overflow: auto; */
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 5cm;
+    background-image: url('assets/main-bg.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    /* background-color: blue; */
+
+}
+
+#thegame{
+    background-image: url('assets/the-games-bg.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#features{
+    background-image: url('assets/features.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#systemreq{
+    background-image: url('assets/requirements.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#topscore{
+    background-image: url('assets/top-score-bg.png');
+    /* background-image: url('assets/top-score-bg\(2\).png'); */
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#newsletter{
+    background-image: url('assets/newsletter.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    text-align: center;
+}
