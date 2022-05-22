@@ -115,6 +115,11 @@ button{
     display: flex;
 }
 
+#Cek{
+    margin-top: 18cm;
+    margin-left: 9cm;
+}
+
 #Page2Text{
     width: max-content; 
     margin-top: 6.5cm;
@@ -148,6 +153,13 @@ button{
     text-align: left;
     color: #f0ad4e;
 }
+.v-line {
+    border-left: thin solid #fff;
+    height: 60px;
+    top: 8px;
+    left: 40px;
+    position: relative;
+  }
 
 
 #systemreq{
@@ -187,7 +199,12 @@ button{
     flex-direction: row;
 }
 #ProfPic{
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    margin-left: 0.5cm;
+    margin-top: 0.2cm;
+    width: 75px;
+    height: 75px;
+    box-shadow: 8px 2px 1px 0 #FFB548;
+    padding: 0rem;
     
 }
 #LeftTS{
@@ -226,3 +243,9 @@ button{
     margin-top: 6cm;
     margin-left: 4cm;
 }
+
+hr.footer-line {
+    top: 150px;
+    border: 1px solid #8C8D8E;
+  }
+  
