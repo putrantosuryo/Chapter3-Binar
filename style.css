@@ -21,12 +21,9 @@ h3{
     padding-left: 20px;
 }
 
-/* body{
-    border-radius: 0px;
-    font-family: "Roboto", sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-} */
+body{
+    background-color: black;
+}
 
 #navigation{
 
@@ -46,6 +43,7 @@ h3{
 #homepage{
     background-image: url('./assets/main-bg.jpg');
     background-size: 100% 100%;
+    /* background-size: cover; */
     /* background-color: black; */
     background-repeat: no-repeat;
     /* height: 100vh;
@@ -110,6 +108,7 @@ button{
     background-image: url('assets/the-games-bg.jpg');
     /* background-color: aqua; */
     background-repeat: no-repeat;
+    background-size: cover;
     /* height: 100vh;
     width: 100vw; */
     display: flex;
@@ -117,11 +116,11 @@ button{
 
 #Cek{
     margin-top: 18cm;
-    margin-left: 9cm;
+    margin-left: 21cm;
 }
 
 #Page2Text{
-    width: max-content; 
+    /* width: max-content;  */
     margin-top: 6.5cm;
     text-align: left;
     margin-left: 1cm;
@@ -129,17 +128,18 @@ button{
 
 #tgImg{
     margin-bottom: 8cm;
-    margin-left: 6.5cm;
+    margin-left: 2.5cm;
 }
 
 #tgImg2{
     margin-top: 292.4px;
-    width: 900px;
+    width: 800px;
     height: 450px;
 }
 #features{
     background-image: url('assets/features.jpg');
     /* background-color: black; */
+    background-size: cover;
     background-repeat: no-repeat;
     /* height: 100vh;
     width: 100vw; */
@@ -147,7 +147,7 @@ button{
 }
 
 #Page3features{
-    margin-left: 30cm;
+    margin-left: 23cm;
     margin-top: 6.5cm;
     margin-bottom: 9.3cm;
     text-align: left;
@@ -210,14 +210,14 @@ button{
 #LeftTS{
    
     margin-top: 9.5cm;
-    margin-left: 4cm;
+    margin-left: 2cm;
     
 }
 
 #RightTS{
     margin-bottom: 4.9cm;
     margin-top: 3cm;
-    margin-left: 7cm;
+    margin-left: 2cm;
 }
 
 
@@ -234,7 +234,7 @@ button{
 }
 
 #LeftNews{
-    margin-left: 11cm;
+    margin-left: 6cm;
     margin-top: 3cm;
 }
 
